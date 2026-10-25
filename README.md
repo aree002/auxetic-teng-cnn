@@ -52,5 +52,3 @@ python train.py --device auxetic        # or --device non_auxetic
 ```
 
 `train.py` regenerates the dataset (seed 42), trains for 100 epochs on CPU (about 4 minutes), and writes figures and `metrics.json` to `results/<device>/`.
-
-The random forest is built from scikit-learn decision trees, with bootstrap sampling and √n features per split. This is because the compiled `sklearn.ensemble` module was blocked on the development machine; the algorithm is the standard one.
