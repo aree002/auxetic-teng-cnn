@@ -1,0 +1,29 @@
+{
+  "device": "non_auxetic",
+  "n_train": 1440,
+  "n_test": 360,
+  "epochs": 100,
+  "accuracy": {
+    "cnn": 0.5638888888888889,
+    "svm": 0.5833333333333334,
+    "rf": 0.3861111111111111
+  },
+  "auc_micro": {
+    "CNN": 0.8747878086419754,
+    "RF": 0.7493171296296297,
+    "SVM": 0.8948395061728395
+  },
+  "cnn_final_train_acc": 1.0,
+  "cnn_final_train_loss": 2.841692649882235e-05,
+  "cnn_epoch_reaching_95pct_test": null,
+  "cnn_per_class_acc": [
+    0.6166666666666667,
+    0.36666666666666664,
+    0.5,
+    0.65,
+    0.5,
+    0.75
+  ],
+  "cnn_train_time_s": 270.4624512195587,
+  "cnn_parameters": 900894
+}
